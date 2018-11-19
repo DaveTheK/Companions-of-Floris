@@ -353,6 +353,7 @@ int main(int argc, const char * argv[]) {
     int count = 1;
     int viableTeams = 0;
     
+    // initial coditions have to be set in this array b for the n!m algorithm.
     for(i = 0; i != N-M; i++)
     {
         b[i] = 0;
